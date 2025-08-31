@@ -33,8 +33,9 @@ const OurFacts = () => {
 
         $(".count-digit").each(function () {
           const $this = $(this);
+          const targetValue = parseInt($this.text().replace(/\D/g, ""), 10) || 0;
           $({ Counter: 0 }).animate(
-            { Counter: $this.text() },
+            { Counter: targetValue },
             {
               duration: 3000,
               easing: "swing",
