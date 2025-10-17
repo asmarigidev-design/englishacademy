@@ -1,0 +1,12 @@
+@import url('https://cdn.fontcdn.ir/Font/Vazir/vazir.css');
+
+body {
+  font-family: 'Vazir', sans-serif;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: 'Vazir', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
